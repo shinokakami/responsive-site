@@ -1,0 +1,60 @@
+@charset "UTF-8";
+header {
+  width: 100%;
+  height: 500px;
+  background-image: url(images/img_sakura.jpg);
+  background-size: cover; }
+
+.huwa h1 {
+  text-align: center;
+  margin: 30px 0;
+  color: #ff00ff; }
+
+.huwahuwa-mohumohu {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  @media (max-width: 768px) {
+    .huwahuwa-mohumohu {
+      flex-direction: column; } }
+
+.huwahuwa {
+  width: 32%;
+  text-align: center;
+  background-color: #ffd6ea;
+  color: #ff7fbf;
+  margin: 20px 0; }
+  @media (max-width: 768px) {
+    .huwahuwa {
+      width: 100%; } }
+
+.powapowa {
+  background-color: #afeeee; }
+
+p {
+  color: #ff7fbf;
+  font-size: 16px; }
+
+.pipi {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #ffc0cb;
+  color: #ff00ff; }
+
+.maru {
+  text-align: center;
+  width: 200px;
+  background-color: #fff0f5;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px; }
+  .maru a {
+    /**.maruの中のaタグ**/
+    color: #ba55d3;
+    text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
